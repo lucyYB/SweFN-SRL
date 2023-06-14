@@ -8,8 +8,10 @@ This Swedish SRL model can, with a given Swedish sentence, perform
  tasks automatically in a series. 
  
 Model 1:
-c a pre-trained English SRL (T5 based, https://github.com/chanind/frame-semantic-transformer.git).
+
+This Swedish SRL is based on a pre-trained English SRL (T5 based, https://github.com/chanind/frame-semantic-transformer.git).
 There are two versions: "small", and "base", which are corresponding to the two versions of the English SRL model.
 
 Model 2:
+
 This Swedish SRL is based on the multilingual T5 (mT5), only small version is fine-tuned.
